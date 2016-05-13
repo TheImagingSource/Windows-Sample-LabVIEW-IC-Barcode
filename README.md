@@ -1,5 +1,5 @@
 # Barcodes in LabVIEW
-This sample VI show, how to use the IC Barcode libary for barcode reading in LabVIEW
+This sample VI shows how to use the IC Barcode libary for reading barcodes in LabVIEW.
 
 ## Prerequisites:
 - LabVIEW 2013
@@ -15,4 +15,4 @@ You may need to edit the reference to the IC Barcode DLL. This is shown in the V
 ![alt tag](https://raw.githubusercontent.com/TheImagingSource/Windows-Sample-LabVIEW-IC-Barcode/master/barcode.png)
 
 ### Remarks
-There may is a memoryleak on the array returned by FindBarcodes. I currently not figured out, how to delete this array after usage.
+There might be a memory leak on the array returned by FindBarcodes. I currently did not figure out how to delete this array after usage.
